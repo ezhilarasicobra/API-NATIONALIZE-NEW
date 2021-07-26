@@ -1,0 +1,42 @@
+@media all and (min-width: 480px) {
+   body {
+     background-color: lightgreen;
+   }
+ }
+ body{
+   background-image:url('https://assets.weforum.org/article/image/large_BG0pfzM90_bsl3pWCLD2ZvvspIYSUwrhYlc5QyRO96E.jpg');
+   color :white;
+ }
+ .containerid{
+   display:flex;
+   flex-direction:column;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+ }
+ .textinput{
+   align-items:center;
+   border:3px solid black;
+   border-radius:50px;
+ }
+ .button{
+   margin-top:10px;
+   border-radius:50px;
+   border:4px solid black;
+ }
+ .resultid{
+  color:white;
+   display:flex;
+   flex-direction: column;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     font-weight: bolder;
+     font-size: xx-large;
+ }
+ p{
+   font-family:powderblue;
+   font-weight:bold;
+ }
